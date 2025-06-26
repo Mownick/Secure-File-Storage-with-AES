@@ -85,7 +85,7 @@ python3 main.py
 ```
 ---
 
-**The GUI window will open, ready to encrypt or decrypt files.**
+### **The GUI window will open, ready to encrypt or decrypt files.**
 
 ![image](https://github.com/user-attachments/assets/c8424388-53f9-4ce3-8e7f-3a6e1e9b6041)
 
@@ -95,7 +95,7 @@ python3 main.py
 
 ## Encrypt a File
 
-# Select any file from your system.
+### Select any file from your system.
 
 ![image](https://github.com/user-attachments/assets/83d96a88-1a53-4892-991d-baa4dce06707)
 
@@ -109,7 +109,7 @@ Generates and shows the AES key (copy & save it!).
 
 Stores metadata in the metadata/ folder.
 
-**Encrypte was successfully complete ---> copy the hash value for Decrypt.**
+### **Encrypte was successfully complete ---> copy the hash value for Decrypt.**
 
 ![image](https://github.com/user-attachments/assets/4eec7fad-9434-49b1-b9e4-c4de2b47e2a5)
 
@@ -117,7 +117,7 @@ Stores metadata in the metadata/ folder.
 
 # 🔓 Decrypt a File
 
-**Choose the file for Decrypt ---> enter the hash value for Decrypt**
+### **Choose the file for Decrypt ---> enter the hash value for Decrypt**
  
 ![image](https://github.com/user-attachments/assets/1220c8b6-4c70-4b10-b77b-1846b6f464aa)
 
@@ -137,13 +137,13 @@ Checks SHA-256 hash for integrity.
 
 Shows whether the file was tampered or safe.
 
-**Encrypted files are saved in Storage folder**
+### **Encrypted files are saved in Storage folder**
 
 ![image](https://github.com/user-attachments/assets/861756c5-f083-4519-9fbf-cf71feba40a2)
 
 ---
 
-**Finally the file was succefully Encrypted --> Decrypted with AES**
+### **Finally the file was succefully Encrypted --> Decrypted with AES**
 
 ![image](https://github.com/user-attachments/assets/54fc809e-37db-4c83-bfa7-b225567a0e57)
 
