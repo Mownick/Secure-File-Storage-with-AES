@@ -75,6 +75,7 @@ sudo apt install python3-pyqt5 -y
 pip install cryptography
 ```
 
+
 #  How to Run
 Open your terminal or command prompt.
 Navigate to the project directory.
@@ -83,6 +84,8 @@ Run the main application:
 python3 main.py
 ```
 The GUI window will open, ready to encrypt or decrypt files.
+![image](https://github.com/user-attachments/assets/c8424388-53f9-4ce3-8e7f-3a6e1e9b6041)
+
 
 # GUI Workflow
 
