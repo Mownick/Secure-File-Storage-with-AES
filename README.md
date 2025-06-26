@@ -91,9 +91,9 @@ The GUI window will open, ready to encrypt or decrypt files.
 
 ## Encrypt a File
 
-Click "Encrypt File".
-
 # Select any file from your system.
+
+![image](https://github.com/user-attachments/assets/83d96a88-1a53-4892-991d-baa4dce06707)
 
 The app:
 
