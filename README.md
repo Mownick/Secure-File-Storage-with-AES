@@ -83,9 +83,13 @@ Run the main application:
 ```
 python3 main.py
 ```
-The GUI window will open, ready to encrypt or decrypt files.
+---
+
+**The GUI window will open, ready to encrypt or decrypt files.**
+
 ![image](https://github.com/user-attachments/assets/c8424388-53f9-4ce3-8e7f-3a6e1e9b6041)
 
+---
 
 # GUI Workflow
 
@@ -105,7 +109,17 @@ Generates and shows the AES key (copy & save it!).
 
 Stores metadata in the metadata/ folder.
 
+**Encrypte was successfully complete ---> copy the hash value for Decrypt.**
+
+![image](https://github.com/user-attachments/assets/4eec7fad-9434-49b1-b9e4-c4de2b47e2a5)
+
+---
+
 # 🔓 Decrypt a File
+
+**Choose the file for Decrypt ---> enter the hash value for Decrypt**
+ 
+![image](https://github.com/user-attachments/assets/1220c8b6-4c70-4b10-b77b-1846b6f464aa)
 
 Click "Decrypt File".
 
@@ -123,6 +137,17 @@ Checks SHA-256 hash for integrity.
 
 Shows whether the file was tampered or safe.
 
+**Encrypted files are saved in Storage folder**
+
+![image](https://github.com/user-attachments/assets/861756c5-f083-4519-9fbf-cf71feba40a2)
+
+---
+
+**Finally the file was succefully Encrypted --> Decrypted with AES**
+
+![image](https://github.com/user-attachments/assets/54fc809e-37db-4c83-bfa7-b225567a0e57)
+
+---
 
 ## Technical Background and Theory
 AES (Advanced Encryption Standard) is a symmetric key encryption algorithm.
@@ -141,6 +166,7 @@ The IV is stored with the ciphertext.
 
 The AES key is not stored — it is shown once and must be saved by the user securely.
 
+---
 
 # File Integrity Verification
 During encryption, the tool calculates the SHA-256 hash of the original file.
@@ -150,6 +176,8 @@ During decryption, it calculates the SHA-256 hash again on the decrypted file.
 If both hashes match → ✅ File is authentic and untampered.
 
 If hashes do not match → ❌ File was corrupted or modified.
+
+---
 
 # Project Structure
 ```
@@ -164,6 +192,7 @@ SecureFileStorage_GUI/
 ├── metadata/            # Stores JSON metadata files (AUTO CREATION)
 └── README.md            # Project documentation
 ```
+---
 
 #  Limitations and Future Improvements
 
@@ -187,12 +216,18 @@ SecureFileStorage_GUI/
 
 ✅ Future: Build .exe (Windows), .deb (Linux), .AppImage (portable).
 
+---
+
 #  Author
-Name: Mohankumar 
+Name: Mohankumar S
+
+---
 
 #  License
 This project is provided for educational and personal use only.
 No warranty is provided. Attribution is appreciated.
+
+---
 
 #  Notes
 
