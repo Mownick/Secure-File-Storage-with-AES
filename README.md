@@ -157,8 +157,8 @@ SecureFileStorage_GUI/
 ├── ui_main.py           # GUI layout and logic
 ├── crypto_utils.py      # AES encryption/decryption
 ├── file_manager.py      # Metadata, hashing, and integrity checks
-├── storage/             # Encrypted files go here
-├── metadata/            # Stores JSON metadata files
+├── storage/             # Encrypted files go here (AUTO CREATION)
+├── metadata/            # Stores JSON metadata files (AUTO CREATION)
 └── README.md            # Project documentation
 ```
 
